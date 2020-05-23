@@ -57,7 +57,10 @@ class DOG
       :breed => row[2]
     }
     
-    self.new
+    self.new(attributes_hash)
+  end
+  
+  
     
     
   
