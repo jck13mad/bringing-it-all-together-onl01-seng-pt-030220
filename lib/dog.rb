@@ -52,7 +52,8 @@ class DOG
   
   def self.new_from_db(row)
     attributes_hash = {
-      :id => row[0]
+      :id => row[0],
+      
     }
     
     
