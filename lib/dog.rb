@@ -19,7 +19,7 @@ class DOG
     DB[:conn].execute(sql)
   end
   
-  
+  def self.
     
     
   
