@@ -80,7 +80,7 @@ class DOG
       SELECT * FROM dogs WHERE name = ?
     SQL
     
-    DB[:conn].execute(sql, name)
+    DB[:conn].execute(sql, name).map do |
   end
     
     
