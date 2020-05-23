@@ -40,7 +40,7 @@ class DOG
     dog
   end
   
-  
+  def self.find_by
     
     
   
