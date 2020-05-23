@@ -23,6 +23,8 @@ class DOG
     sql = "DROP TABLE dogs"
     DB[:conn].execute(sql)
   end
+  
+  
     
     
   
