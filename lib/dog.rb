@@ -57,7 +57,7 @@ class DOG
       :breed => row[2]
     }
     
-    
+    self.new
     
     
   
