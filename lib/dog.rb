@@ -90,7 +90,7 @@ class DOG
       UPDATE dogs SET name = ?, breed = ? WHERE id = ?
     SQL
     
-    DB[:conn].execute(sql, self.name)
+    DB[:conn].execute(sql, self.name, self.breed)
     
     
   
