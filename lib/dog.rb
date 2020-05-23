@@ -1,6 +1,6 @@
 class DOG 
   
-  
+  attr_accessor 
   
   
   
