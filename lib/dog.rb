@@ -40,7 +40,8 @@ class DOG
     dog
   end
   
-  def self.find_by
+  def self.find_by_id(id)
+    
     
     
   
