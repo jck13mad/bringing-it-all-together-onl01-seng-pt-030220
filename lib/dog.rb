@@ -60,7 +60,8 @@ class DOG
     self.new(attributes_hash)
   end
   
-  def self.find_or_create_
+  def self.find_or_create_by(name, breed)
+    
     
     
   
