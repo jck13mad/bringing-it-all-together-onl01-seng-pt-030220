@@ -75,7 +75,7 @@ class DOG
     new_dog
   end
   
-  
+  def self.
     
     
   
