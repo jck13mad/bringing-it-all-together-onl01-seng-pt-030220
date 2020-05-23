@@ -11,6 +11,7 @@ class DOG
     sql = <<-SQL
       CREATE TABLE IF NOT EXISTS dogs (
         id INTEGER PRIMARY KEY,
+        name TEXT,
         
       )
     
