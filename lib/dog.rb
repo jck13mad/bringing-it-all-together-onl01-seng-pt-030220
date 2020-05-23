@@ -20,7 +20,7 @@ class DOG
   end
   
   def self.drop_table
-    sql = "DROP TABLE dogs"
+    sql = "DROP TABLE dogs";
     DB[:conn].execute(sql)
   end
   
