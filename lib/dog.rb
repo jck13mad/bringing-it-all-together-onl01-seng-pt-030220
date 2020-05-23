@@ -30,7 +30,7 @@ class DOG
       VALUES (?, ?)
     SQL
     
-    
+    DB[:conn].execute(sql, )
     
     
   
